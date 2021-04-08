@@ -1,0 +1,53 @@
+h1
+{
+    color: maroon;
+}
+h2
+{
+    color: red;
+}
+p
+{
+    color: purple;
+}
+#drvo
+{
+    height: 300px;
+    width: 400px;
+    border-style: dashed;
+    border-width: 2px;
+}
+#wiki
+{
+    color: orange;
+    ;
+}
+#wiki:hover
+{
+    color:yellow;
+}
+#wiki:visited
+{
+    color:green;
+}
+body
+{
+    background-color:rgb(231, 218, 175);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.naslov
+{
+    text-align: center;
+}
+.ml
+{
+    text-align: right;
+    font-size: 24px;
+}
+#treci
+{
+    text-align: center;
+    color: green;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
