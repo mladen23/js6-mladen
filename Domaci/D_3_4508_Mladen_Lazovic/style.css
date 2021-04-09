@@ -1,0 +1,12 @@
+.part{
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+table th{
+    text-align: center;
+}
+table td{
+    width: 160px;
+}
