@@ -1,0 +1,53 @@
+.crveniParagraf{
+color: red;
+}
+
+.desnoPoravnanje{
+    text-align: right;
+}
+
+/* Vise elemenata, kalsa sa istim osobinama */
+h3, h4{
+    color: orange;
+}
+
+.drugi, #treci{
+    background-color: yellow;
+}
+/* Prioritet: selektor < klasa < ID */
+li{
+    color: green;
+}
+
+.kurs{
+    color: blue;
+}
+
+#java{
+    color: violet;
+}
+
+li{
+    color: brown; /* Poslednji dodati stil se primenjuje samo nad slabijima ili jednakim */
+}
+
+div p{
+    text-decoration: underline;
+}
+
+div .podParagraf{
+    font-weight: 120px;
+}
+
+/* Ciljano selektovanje elemenata */
+ol li:nth-child(3){
+    font-style: italic;
+} /* broj znaci koji element, "3n" = svaki treci... */
+
+ol li:nth-child(odd){
+    color: hotpink;
+}
+
+ol li:nth-child(even){
+    color: darkmagenta;
+}
