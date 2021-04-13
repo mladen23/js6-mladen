@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+section
+{   
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+div
+{   
+    float: left;
+    width: 28%;
+    padding:20px 5px;
+}
+div h2
+{
+    letter-spacing: 5px;
+}
+div p
+{
+    padding:10px 40px;
+}
+aside
+{
+    width: 60%;
+    margin:auto;
+}
