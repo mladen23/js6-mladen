@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.row
+{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+[class*="col-"]
+{
+    float: left;
+}
+
+.part1
+{   
+    background-image: url(city.jpg);
+    background-size: cover;
+}
+
+.part2
+{
+    color: gray;
+}
+
+nav
+{
+    width: 80%;
+    margin:auto;
+    border-bottom: 1px solid white;
+    padding:20px;
+}
+
+nav a
+{
+    color:white;
+    text-decoration: none;
+}
+
+tr td:nth-child(1)
+{
+    text-align: left;
+}
+
+h1
+{
+    color: white;
+    padding: 100px 0 200px 0;
+}
+
+.green
+{
+    border: 2px solid green;
+    color: green;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+    width: 150px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+img
+{
+    width: 100px;
+    border-radius: 100%;
+}
+.green1
+{
+    border: 2px solid green;
+    color: green;
+    padding: 5px;
+    display: block;
+    margin:auto;
+    width: 150px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ul li
+{
+    padding: 10px;
+}
+.float
+{
+    float: right;
+}
+
+.part3
+{
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+
+form
+{
+    width: 60%;
+    margin:auto;
+}
+fieldset
+{
+    border: none;
+}
+input, textarea
+{
+    background-color: green;
+}
+h4
+{   text-align: center;
+    padding: 80px;
+}
+input, label, textarea
+{
+    padding: 10px;
+}
+input, textarea
+{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+button
+{
+    border: 2px solid white;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin:auto;
+    width: 150px;
+    border-radius: 20px;
+}

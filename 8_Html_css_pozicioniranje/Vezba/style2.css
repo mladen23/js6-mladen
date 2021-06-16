@@ -1,0 +1,18 @@
+#float
+{
+    background-color: maroon;
+    overflow: hidden;
+}
+#float p
+{
+    background-color: mediumturquoise;
+    float: right;
+    width: 250px;
+    margin: 20px;
+}
+/* Kada koristino float za decu elemente
+moramo da koristimo i overflow za parent-a */
+#float p:first-child
+{
+    float:left;
+}

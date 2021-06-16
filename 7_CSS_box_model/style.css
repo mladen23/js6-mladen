@@ -1,0 +1,52 @@
+a
+{
+    border-top-style: dashed;
+    border-top-width: 2px;
+    border-color: black;
+    border-radius: 30%;
+
+    border-left:2px solid green;
+    font-size: 30px;
+    margin: 30px 20px 10px 5px;
+    /* margin: 10px; -sve cetiri
+    margin: 10px 20px; -top and bottom, left and right 
+    margin: 15px 20px 25px; top, right, bottom, left gets right property */
+    padding: 10px 20px;
+    background-color: teal;
+    /* a tag je inline element - ne moze da se promeni w i h */
+}
+p
+{
+    border: 2px solid green;
+    margin: 10px;
+    padding: 10px;
+    background-color: honeydew;
+    width: 350px;
+    height: 50px;
+    overflow: auto; /* Regulise ukilo imamo vise texta nego sto paragraf moze da prihvati. */
+}
+/*
+display svojstvo
+
+BLOCK ( moze da se promeni width and height )
+    p, div, h1, h2...table...
+
+INLINE ( ne moze da se promeni w i h )
+    a, span, td...
+
+INLINE-BLOCK ( inline kome moze da se podesi w i h )
+*/
+#sp1, #sp2
+{
+    border: 2px solid blue;
+    margin: 0px;
+    padding: 15px;
+    display: inline-block;
+    width: 50%;
+    height: 80px;
+    box-sizing: border-box;
+    
+}
+/*
+    UKUPAN PROSTOR= w i h + padding + border + margin
+*/

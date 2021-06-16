@@ -3,29 +3,34 @@
     margin: 0;
     padding: 0;
 }
-section
-{   
+section 
+{
     width: 60%;
-    margin: auto;
     text-align: center;
+    margin: auto;
     overflow: hidden;
 }
-div
-{   
+div 
+{
     float: left;
     width: 28%;
-    padding:20px 5px;
+    padding: 20px 5px;
 }
-div h2
+div h2 
 {
     letter-spacing: 5px;
 }
-div p
+div p 
 {
-    padding:10px 40px;
+    padding: 10px 40px;
 }
-aside
+aside 
 {
     width: 60%;
-    margin:auto;
+    margin: auto;
+}
+.druga
+{
+    z-index: -1;
+    float: left;
 }

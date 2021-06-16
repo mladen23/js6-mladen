@@ -1,0 +1,14 @@
+#treci
+{
+    background-color: red;
+    border:black 3px solid;
+    height: 600px;
+
+}
+
+div{
+    background-color: green;
+}
+div div{
+    background-color: black;
+}

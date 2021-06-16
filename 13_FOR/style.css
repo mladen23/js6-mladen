@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    font-size: larger;
+}
+.obojen {
+    background-color: aqua;
+}
+.obojen2 {
+    background-color: beige;
+}
+.purple {
+    color: purple;
+}
+.abc {
+    border : 1px solid black;
+}

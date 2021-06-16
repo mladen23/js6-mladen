@@ -1,0 +1,75 @@
+header
+{
+    background: url(head.jpg);
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+#mid
+{
+    font-size: 40px;
+    color:magenta;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 80px;
+    z-index: 1;
+}
+#goreLevo
+{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+}
+#goreDesno
+{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left:90%;
+}
+#doleDesno
+{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left:90%;
+    top:150px;
+}
+#doleLevo
+{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top:150px;
+}
+#zIndex
+{
+    position: absolute;
+    top:45px;
+    left: 20px;
+    z-index: 1;
+    color:lavender;
+    font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+}
+#zIndex:hover
+{
+    letter-spacing: 20px;
+    color: lightseagreen;
+}
+img
+{
+    height: 140px;
+    position:absolute;
+    top: 60px;
+    left:40%;
+    z-index: 0;
+}
+img:hover
+{
+    top: 100px;
+    left:80%;
+}
+/* Za centriranje - transform:translate */

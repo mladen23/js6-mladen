@@ -1,0 +1,80 @@
+img
+{
+    height: 200px;
+}
+td
+{
+    width: 450px;
+    text-align: center;
+}
+th
+{
+    text-align: left;
+    font-size: 22px;
+}
+.navigacija
+{
+    width: 460px;
+    font-size: 26px;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.linkPrva:hover
+{
+    background-color: orange;
+}
+
+.bold
+{
+    font-weight: bold;
+    text-align: center;
+}
+.grad
+{
+    color: orange;
+}
+.qa
+{
+    color: green;
+}
+
+
+#centriran
+{
+    text-align: center;
+}
+h4
+{
+    color: orange;
+}
+#okvir
+{
+    border: orange 4px solid;
+}
+.boja
+{
+    color: green;
+}
+.boja:visited
+{
+    color: red;
+}
+
+form
+{
+    width: 900px;
+}
+
+button
+{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+}

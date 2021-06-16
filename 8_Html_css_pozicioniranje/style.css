@@ -1,0 +1,48 @@
+#div1
+{
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    /* Pozicioniranje u odnosu na poziciju koju je zauzimao.
+    top / left... ne rade ako se ne postavi position. */
+    top:40px;
+    left: 25%;
+}
+/* position:absolute; podesava poziciju u odnosu na roditeljski element */
+.news
+{
+    background-color: rgb(101, 99, 231);
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 40px;
+}
+.news img
+{
+    width:150px;
+    position: absolute;
+    top: 40px;
+    left:20px;
+}
+.news h5
+{
+    position: absolute;
+    top:40px;
+    right:5px;
+    margin: 0px;
+    padding: 0px;
+}
+/* position:fixed fiksira element u odnosu na celu stranicu */
+footer
+{
+    background-color: burlywood;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}

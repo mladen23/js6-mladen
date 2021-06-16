@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+    padding: 10px;
+    margin: 0px;
+}
+ul {
+    padding: 10px;
+    margin: 0px;
+}
+li {
+    width: 200px;
+    list-style: none;
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    background-color: rgb(129, 245, 245);
+}

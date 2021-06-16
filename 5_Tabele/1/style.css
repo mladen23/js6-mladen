@@ -1,0 +1,51 @@
+table{
+    border: lightgray 10px solid;
+    border-collapse: collapse;
+
+}
+
+th{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+td{
+    height: 30px;
+    width: 200px;
+    border-right:gray 2px solid;
+}
+tr td:nth-child(1){
+    width: 400px;
+}
+
+tr{
+    border-bottom: rgb(41, 5, 5) 2px solid;
+    text-align: right;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:nth-child(even){
+    background-color: rgb(126, 111, 45);
+}
+
+tr th{
+    background-color: rgb(41, 5, 5);
+}
+
+td:nth-child(1){
+    text-align: left;
+}
+
+#centar{
+    text-align: center;
+}
+
+#drugacije{
+    text-align: right;
+    font-weight: bold ;
+    color: white;
+}

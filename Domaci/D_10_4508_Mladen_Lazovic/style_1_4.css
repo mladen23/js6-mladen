@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    border: 2px solid white;
+}
+#tabela {
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    border-collapse: collapse;
+    background-image: linear-gradient(to bottom right, rgb(23, 117, 52),rgb(48, 8, 94));
+    border-radius: 25% 0;
+}
+th, td {
+    padding: 10px;
+    border: 4px double white;
+}
+th {
+    letter-spacing: 6px;
+}
+span {
+    display:inline-block;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    padding: 10px 5px 0;
+    margin-bottom: 3px;
+}
+.crniSpan {
+    background-color: black;
+    color: white;
+}

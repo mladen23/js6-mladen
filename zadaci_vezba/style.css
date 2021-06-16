@@ -1,0 +1,10 @@
+td{
+    width: 200px;
+    border: black 2px solid
+}
+tr{
+    text-align: right;
+}
+tr td:nth-child(1){
+    text-align: left;
+}

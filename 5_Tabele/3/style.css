@@ -1,0 +1,10 @@
+img
+{
+    height: 60px;
+}
+td
+{
+    border: blue 2px dotted;
+    border-radius:100%;
+    padding: 30px;
+}

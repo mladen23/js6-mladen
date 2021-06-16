@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    height: 200px;
+}
+section
+{
+    background: url(purp.jpg);
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+div
+{
+    float: left;
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color: ivory;
+}
+#desni
+{
+    float: right;
+}
